@@ -1,4 +1,4 @@
-psScmTools is a set of Windows Powershell scripts developed to do
+﻿psScmTools is a set of Windows Powershell scripts developed to do
 just enough to support adding useful source control information to
 the Powershell prompt.
 
