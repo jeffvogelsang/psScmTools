@@ -1,0 +1,21 @@
+psScmTools is a set of Windows Powershell scripts developed to do
+just enough to support adding useful source control information to
+the Powershell prompt.
+
+psScmTools collects information for Subversion, Mercurial, and Git.
+
+Contents:
+
+profile: Powershell profile that loads a sample custom prompt
+psScmPrompt: custom Powershell prompt configured to display SCM info
+psScmTools: a set of functions that collects and output SCM info
+
+Drop these files into %USERPROFILE%\Documents\WindowsPowershell\ to
+see a how the scripts work. Change the current working directory to
+one that contains source-controlled files. The Powershell prompt will
+update to contain information about the type of source control, any
+branch or tag information, and information about the status of the
+working copy.
+
+Note: Subversion operations are very slow on large working copies.
+Updating the prompt in Subversion directores can take a few seconds.
